@@ -275,7 +275,7 @@ vnoremap <C-A-up> :m '<-2<CR>gv=gv
 set cursorline
 
 nmap <leader>for Ifor(let i = 0;i<10;i++){}
-
+nmap <tab> :tabn
 
 func! CompileRun()
 exec "w"
@@ -293,7 +293,7 @@ elseif &filetype == 'sh'
 elseif &filetype == 'python'
     exec "!time python3 %"
 elseif &filetype == 'html'
-    exec "!google-chrome % &"
+    exec "!firefox % &"
 elseif &filetype == 'go'
     exec "!go build %<"
     exec "!time go run %"
