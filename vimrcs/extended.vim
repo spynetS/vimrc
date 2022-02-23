@@ -273,6 +273,7 @@ vnoremap <C-A-down> :m '>+1<CR>gv=gv
 vnoremap <C-A-up> :m '<-2<CR>gv=gv
 
 set cursorline
+set shell=/usr/bin/zsh
 
 nmap <leader>for Ifor(let i = 0;i<10;i++){}
 nmap <tab> :tabn
