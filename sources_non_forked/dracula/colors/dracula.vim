@@ -258,7 +258,7 @@ call s:h('Conceal', s:cyan, s:none)
 
 " Neovim uses SpecialKey for escape characters only. Vim uses it for that, plus whitespace.
 if has('nvim')
-  hi! link SpecialKey DraculaRed
+  hi! link SpecialKey DraculaSubtle
   hi! link LspReferenceText DraculaSelection
   hi! link LspReferenceRead DraculaSelection
   hi! link LspReferenceWrite DraculaSelection
@@ -271,7 +271,7 @@ if has('nvim')
   hi! link LspDiagnosticsUnderlineInformation DraculaInfoLine
   hi! link LspDiagnosticsUnderlineWarning DraculaWarnLine
 else
-  hi! link SpecialKey DraculaPink
+  hi! link SpecialKey DraculaSubtle
 endif
 
 hi! link Comment DraculaComment

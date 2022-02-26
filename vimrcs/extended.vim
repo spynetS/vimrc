@@ -262,7 +262,8 @@ Plug 'BrandonRoehl/auto-omni'
 
 call plug#end()
 
-
+set list
+set listchars=space:·
 
 set rnu
 set nu
