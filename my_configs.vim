@@ -47,7 +47,7 @@ nmap <silent> <buffer> <leader>jN <Plug>(JavaComplete-Generate-ClassInFile)
 
 "plugins
 call plug#begin()
-
+Plug 'psliwka/vim-smoothie'
 Plug 'mattn/emmet-vim'
 Plug 'Yggdroot/indentLine'
 Plug 'SirVer/ultisnips'
@@ -71,7 +71,7 @@ nmap <tab> :tabn
 
 set foldlevel=200
 
-
+let g:NERDTreeWinPos = "left"
 
 "bind away arrowkeys
 "noremap <Up> <nop>
