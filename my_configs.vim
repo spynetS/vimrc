@@ -32,8 +32,11 @@ set foldlevel=220
 
 let g:NERDTreeWinPos = "left"
 
+nmap <leader>w :set wrap<cr>
+nmap <leader>nw :set nowrap<cr>
+
 "bind away arrowkeys
-"noremap <Up> <nop>
+""noremap <Up> <nop>
 "noremap <Down> <nop>
 "noremap <Left> <nop>
 "noremap <Right> <nop>
