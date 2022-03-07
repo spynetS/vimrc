@@ -28,8 +28,9 @@ colorscheme ir_black
 colorscheme pyte
 
 
-set foldlevel=200
+set foldlevel=220
 
+let g:NERDTreeWinPos = "left"
 
 "bind away arrowkeys
 "noremap <Up> <nop>
