@@ -22,6 +22,9 @@ set rnu
 set nu
 nmap <tab> :tabn
 
+colorscheme dracula
+colorscheme peaksea
+colorscheme ir_black
 colorscheme pyte
 
 
@@ -100,5 +103,4 @@ vmap <leader>ja <Plug>(JavaComplete-Generate-AccessorSetterGetter)
 
 nmap <silent> <buffer> <leader>jn <Plug>(JavaComplete-Generate-NewClass)
 nmap <silent> <buffer> <leader>jN <Plug>(JavaComplete-Generate-ClassInFile)
-
 
