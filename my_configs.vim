@@ -22,10 +22,10 @@ set rnu
 set nu
 nmap <tab> :tabn
 
-"colorscheme dracula
+colorscheme dracula
 "colorscheme peaksea
 "colorscheme ir_black
-colorscheme pyte
+"colorscheme pyte
 
 
 set foldlevel=220
