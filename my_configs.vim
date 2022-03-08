@@ -73,6 +73,8 @@ set foldlevel=200
 
 let g:NERDTreeWinPos = "left"
 
+colorscheme dracula
+
 "bind away arrowkeys
 "noremap <Up> <nop>
 "noremap <Down> <nop>
