@@ -1,3 +1,4 @@
+set belloff=all
 "plugins
 call plug#begin()
 
