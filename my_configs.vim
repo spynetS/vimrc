@@ -9,6 +9,7 @@ Plug 'yanqd0/snippets-for-vim'
 Plug 'artur-shaik/vim-javacomplete2'
 Plug 'BrandonRoehl/auto-omni'
 Plug 'mxw/vim-jsx'
+Plug 'drmikehenry/vim-fontsize'
 call plug#end()
 
 "emmet shortcuts
